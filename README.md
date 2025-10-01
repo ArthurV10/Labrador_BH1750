@@ -9,7 +9,7 @@ Utilizando um sensor de luminosidade BH1750, este código lê a intensidade da l
 ## ✨ Funcionalidades
 
 * **Leitura de Luminosidade:** Interface com o sensor I2C BH1750 para obter medições precisas em Lux.
-* **Controle de LEDs:** Aciona os LEDs internos da placa quando a luminosidade cai abaixo de um limite configurável, funcionando como uma luz noturna automática.
+* **Controle de LEDs:** Aciona os LEDs internos da placa quando a luminosidade está acima de um limite configurável, funcionando como uma instrução visual de "Claro" e "Escuro".
 * **Log de Dados:** Salva cada leitura do sensor, com data e hora, em um arquivo de log no cartão MicroSD, ideal para análises futuras.
 * **Código Modular:** O projeto é organizado em classes Python, separando as responsabilidades do sensor, do cartão SD e dos LEDs, facilitando a manutenção e a reutilização do código.
 
